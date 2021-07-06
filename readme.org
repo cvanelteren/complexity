@@ -1,0 +1,16 @@
+* TODO Welcome to complexity's toolbox
+
+Complexity  scientists  have  diverse backgrounds;  in  this
+toolbox I aim to unify these disciplines and offer a sci-kit
+like  experience for  complexity science.  It will  form the
+flipside of the coin to [[https://github.com/cvanelteren/PlexSim/tree/master/plexsim][Plexsim]] (the computational toolbox).
+** Outline
+The package needs  to provide bindings to python  but can be
+written in  any language  of choice  by the  programmer. The
+complexity  discipline  should  be  divided  into  different
+branches such  as biology, information theory,  phsycis etc.
+When  adding  a   new  module  or  function   it  should  be
+accompanied by  a "tutorial" outlining  its uses in  a human
+readable manner (possible with math).
+
+- [ ] take one dataset on which all these methods can be applied.
