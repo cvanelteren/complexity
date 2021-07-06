@@ -8,7 +8,7 @@ proc naive_estimator(x: openArray[float]) : Table[float, float] =
     if result.hasKeyOrPut(xi, 1/z):
         result[xi] += 1/z
 
-proc entropy(p: openArray[float]): float =
+proc entropy*(p: openArray[float]): float =
   result = 0
   for pi in p:
     if pi != 0:
@@ -28,7 +28,7 @@ proc argsort *[T](t: seq[T], order = SortOrder.Ascending): seq[int] =
 
 
 
-proc permutation_entropy[T](x: openArray[T], t: int, tau: int = 1, normalize : bool = false): float =
+proc permutation_entropy*[T](x: openArray[T], t: int, tau: int = 1, normalize : bool = false): float =
   # 1. Cut the the time-series in t overlapping segments
   # 2. Construct the ordering permutation of the segements
   # 3. Compute the relative frequency

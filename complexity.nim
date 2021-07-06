@@ -1,4 +1,9 @@
-import src/entropy, src/logmap
+import ./src/entropy,
+       ./src/logmap
+
+export permutation_entropy,
+       logmap
+
 
 
 
